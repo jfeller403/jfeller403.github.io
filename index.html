@@ -4,11 +4,179 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jesse Feller's Portfolio</title>
+    <title>Jesse Feller - Software Engineer </title>
     <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
-    <h1>Jesse Feller's Portfolio</h1>
-    <p>This is the paragraph that I wrote for you.</p>
+    <nav>
+        <a href="#skills"> Skills </a>
+        <a href="#compentencies"> Professional Compentencies </a> 
+        <a href="#projects"> Projects </a> 
+        <a href="#education"> Education </a>
+        <a href="#workhist"> Work History</a> 
+    </nav>
+    <main>
+    <div class="container">
+        <div class="intro">
+            <div class="title">
+                <h1 id="title">Jesse Feller - Software Engineer</h1> 
+            </div>
+            <div id="contact_info"> 
+                <span> &emsp; &emsp;&emsp;&emsp;<strong>Email: </strong>jfeller403@gmail.com &emsp; &emsp; <strong>Phone: </strong> 507-459-8261 </span>
+            </div>
+            <div class="pic_n_bio">
+                <span id="mypic">
+                    <img src="filler.jpg" alt="Me">
+                </span>
+                <span id="bio">
+                    <p>
+                        &emsp; Welcome to my website! I am a software developer and former Mathematician. I worked as a Mathematics instructor at the university level for over a decade. 
+                        In 2020 I began my journey in programming. I started by learning SQL and Python. I wrote a few games in python and then moved onto learning about data visualization 
+                        and statistical analysis in Python. After that I became very interested in software development and machine learning. I went through
+                        a few modules online through <a href="https://www.dataquest.io/">dataquest</a> and then enrolled in We Can Code IT's C# bootcamp. I am looking forward to continue
+                        my software development path at a new company!
+                    </p>    
+                </span>
+            </div>
+        </div>
+
+        <div class="skills_n_comps">
+            <div class="skills">
+            <section id="skills">
+                <h3 class="section_head">Skills</h3>
+                <p> &nbsp; </p>
+                <ul>
+                    <li>C# / .Net</li>
+                    <li>Python (Pandas, Numpy, Selenium)</li>
+                    <li>HTML, CSS, JavaScript </li>
+                    <li>SQL</li>
+                    <li>Java</li>
+                    <li>Github, Visual Studio, Gitbash, Spyder, Eclipse</li>
+                    <li>Regression, Hypothesis Testing, Data Visualization</li>
+                    <li>Advanced Mathematics (Linear Algebra, Calculus, Probability and Statistics)</li>
+                </ul>
+            </section>
+            </div>
+            <div class="competencies">
+            <section id="competencies">
+                <h3 class="section_head">Professional Competencies</h3>
+                <p> &nbsp; </p>
+                <ul>
+                    <li>Critical Thinking/Problem Solving</li>
+                    <li>Attention to Detail</li>
+                    <li>Communicating Technical material to any audience</li>
+                    <li>Streamlining Complex Processes</li>
+                    <li>Verbal and Written Communication Skills</li>
+                    <li>Problem Analysis and Troubleshooting</li>
+                </ul>
+            </section>
+            </div>
+               
+        </div>
+        <section id="projects">
+            <h3 class="section_head" style="margin:10px">Projects &emsp;<a href=https://github.com/jfeller403>Github - jfeller403</a> </h3> 
+        <div class="projects">
+            <article class="project">
+                <div>
+                    <img src="dice.png" alt="Dice App">
+                </div>
+                <div class="project_desc">
+                    <p><strong>Dice Roller</strong> <em>C#, Github, Visual Studio, OOP</em> </p>
+                    <p>&emsp;</p>
+                    <p> 
+                        &emsp; This is a C# console app that simulates dice rolling with simple graphics. Users start by picking
+                        a dice color and specifying how many sides they want the dice to have. After that users can then 
+                        roll the selected dice on a table and select which dice they want to keep and which ones they want 
+                        to roll again. 
+                    </p>
+                    
+                </div>
+            </article>
+            <article class="project">
+                <div>
+                    <img src="virtual_pet.png" alt="Virtual Pet App">
+                </div>
+                <div class="project_desc">
+                    <p><strong>Virtual Pet</strong> <em>C#, Github, Visual Studio, OOP</em></p>
+                    <p>&emsp;</p>
+                    <p>
+                        &emsp; This is another C# console app where users interact with a shelter of pets. Users can add their own 
+                        pets to the shelter and choose from the categories of organic or robotic pets. All pets in the shelter
+                        will need to be taken care of via interactions (play, feed, take to doctor). Each pet has levels of 
+                        health, boredom, and hunger that will deteriorate as time passes by if not taken care of. They will
+                        start making alert noises if not taken care of properly. Interactions come with sound effects and text 
+                        art. Finally, pets can be adopted out of the shelter.   
+                    </p>
+                </div> 
+            </article>
+            <article class="project">
+                <div>
+                    <video src="covidCases.mp4" width = "500" controls loop> Sorry, your browser does not support this video player. </video> 
+                    &nbsp &nbsp &nbsp &nbsp &nbsp  <video src="covidCases_percapita.mp4" width = "500" controls loop> Sorry, your browser does not support this video player.</video>
+                </div>
+                <div class="project_desc">
+                    <p><strong>COVID-19 tracking</strong> <em>Python, Spyder, numpy, imageio, pillow</em></p>
+                    <p>&emsp;</p>
+                    <p>
+                        &emsp; These are videos of US colorcoded map that shows changes in COVID-19 cases over a several month period. 
+                        Data was found using the CDC's website and colored according to daily new case level. Videos were created using
+                        Python. 
+                    </p>
+                    
+                </div>
+            </article>
+            <article class="project">
+                <div>
+                    <img src="prof_apps.png" alt="Profitable Apps Writeup">
+                </div>
+                <div class="project_desc">
+                    <p><strong>Profitability of Apps on Google Play and Apple Stores</strong> <em>Python, Jupyter Notebook</em> </p> 
+                    <p> 
+                        &emsp; Analyzed data from Google and Apple to determine what types were most profitable. You can see the writeup <a href="Profitable_apps.html">here</a> in Jupyter notebooks. 
+                    </p>
+                    
+                </div>    
+        </div>
+        </section>
+        
+        <div class="education_n_work">
+            <section id="education">
+            <div class="education">
+                <h3 class="section_head">Education</h3>
+                <table>
+                    <tr><td>We Can Code IT </td> <td> Software Development Certificate</td> <td> Sept 2021 to Dec 2021</td>
+                    </tr>
+                    <tr><td>University of Wisconsin Milwaukee </td> <td> Ph.D. Mathematical Sciences</td> <td> Aug 2011 to Aug 2015</td>
+                    </tr>
+                    <tr><td>University of Wisconsin Milwuakee </td> <td> M.S. Mathematical Sciences</td> <td> Aug 2009 to Aug 2011</td>
+                    </tr>
+                    <tr><td>Minnesota State University Mankato </td> <td> B.A. Mathematical Sciences</td> <td>Aug 2015 to Dec 2018</td>
+                    </tr>
+                </table>
+            </div>
+            </section>
+            <section id="workhist">
+            <div class="workhist">
+                <h3 class="section_head">Work History</h3>
+                <table>
+                    <tr><td>Express Employment Services </td> <td> Bookkeeper</td> <td> June 2020 to Present</td>
+                    </tr>
+                    <tr><td>MRI Software </td> <td> Accounts Receivable Specialist</td> <td> June 2020 to Jan 2021</td>
+                    </tr>
+                    <tr><td>Cleveland State University </td> <td> Adjunct Instructor</td> <td> Jan 2019 to Dec 2019</td>
+                    </tr>
+                    <tr><td>Kutztown University of Pennsylvania </td> <td> Assistant Professor</td> <td> Aug 2015 to Dec 2018</td>
+                    </tr>
+                    <tr><td>University of Wisconsin Milwaukee </td> <td> Teaching Assistant</td> <td> Sept 2009 to Aug 2015</td>
+                    </tr>
+                </table>
+            </div>
+            </section>
+        </div>
+    </div>
+    </main>
+    <footer id="copyright">
+        &copy; 2001
+    </footer>
 </body>
 </html>

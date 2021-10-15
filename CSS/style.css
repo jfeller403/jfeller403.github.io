@@ -1,0 +1,120 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.25em; 
+    margin:0; 
+    padding:0;
+    box-sizing:border-box; 
+}
+
+html{
+    max-width: 800px
+}
+
+nav {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: black; 
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    padding: .5em 2em;
+    color: white;
+}
+
+nav a:hover {
+    color: red
+}
+
+.container {
+    display: grid;
+    width: 1200px;
+    margin: 3rem 4rem;
+    grid-gap: 50px 10px;
+    grid-template-rows: 200px, 200px, 200px, 200px;  
+}
+
+.section_head {
+    text-align:center;
+    margin: 10px;
+
+}
+.intro {
+    display: grid;
+    width: 1200px;
+    grid-template-rows: 50px auto;
+    grid-gap: 10px 10px;
+}
+
+.pic_n_bio {
+    display: grid;
+    width: 1200px;
+    grid-template-columns: 250px auto;
+    grid-gap: 10px 10px;
+    
+}
+
+#title {
+    text-align:center;
+}
+#contact_info {
+    text-align:center;
+    display:grid;
+    grid-gap: 100px;
+    grid-template-columns: 900px auto;
+}
+
+#bio {
+    margin: 2rem
+
+}
+
+.skills_n_comps {
+    display: grid;
+    width: 1200px;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:100px;
+
+}
+
+.projects{
+    display: grid;
+    width: 1200px;
+    text-align:center;
+    grid-gap:50px;
+}
+
+.project{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-gap: 20px;
+}
+
+.project_desc{
+    text-align: left;
+}
+
+.education_n_work {
+    display: grid;
+    width: 1200px;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 100px;
+}
+
+td {
+    text-align:center;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {background-color: #bbb;}
+
+#copyright {
+    text-align: center;
+}
+
