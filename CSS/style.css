@@ -7,8 +7,13 @@
 }
 
 html{
-    max-width: 800px
+    background-image: url("backbanner.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 nav {
     position:fixed;
@@ -32,7 +37,7 @@ nav a:hover {
     color: red
 }
 
-.container {
+#container {
     display: grid;
     width: 1200px;
     margin: 3rem 4rem;
@@ -45,19 +50,20 @@ nav a:hover {
     margin: 10px;
 
 }
-.intro {
-    display: grid;
-    width: 1200px;
-    grid-template-rows: 50px auto;
-    grid-gap: 10px 10px;
-}
 
-.pic_n_bio {
+section{
+    background-color:white;
+    padding: 40px ;
+    border-color: black;
+    border-style: double;
+    
+}
+#intro {
+    margin-top: 3rem;
     display: grid;
     width: 1200px;
-    grid-template-columns: 250px auto;
-    grid-gap: 10px 10px;
-    
+    grid-template-columns: 200px auto;
+    grid-gap: 10px 30px;
 }
 
 #title {
@@ -70,12 +76,12 @@ nav a:hover {
     grid-template-columns: 900px auto;
 }
 
-#bio {
-    margin: 2rem
-
+#bio > p{
+    margin: 2rem;
+    width: 900px
 }
 
-.skills_n_comps {
+#skills_n_comps {
     display: grid;
     width: 1200px;
     grid-template-columns: repeat(2,1fr);
@@ -100,7 +106,7 @@ nav a:hover {
     text-align: left;
 }
 
-.education_n_work {
+#education_n_work {
     display: grid;
     width: 1200px;
     grid-template-columns: repeat(2,1fr);
