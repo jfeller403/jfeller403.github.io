@@ -42,7 +42,9 @@ nav a:hover {
     width: 1200px;
     margin: 3rem 4rem;
     grid-gap: 50px 10px;
-    grid-template-rows: 200px, 200px, 200px, 200px;  
+    grid-template-rows: 200px, 200px, 200px, 200px; 
+    align-content:center;
+    justify-content: space-around;
 }
 
 .section_head {
@@ -52,7 +54,7 @@ nav a:hover {
 }
 
 section{
-    background-color:white;
+    background-color: white;
     padding: 40px ;
     border-color: black;
     border-style: double;
@@ -78,7 +80,8 @@ section{
 
 #bio > p{
     margin: 2rem;
-    width: 900px
+    width: 800px;
+    padding: .5em;
 }
 
 #skills_n_comps {
